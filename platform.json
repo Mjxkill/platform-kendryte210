@@ -1,5 +1,5 @@
 {
-    "name": "kendryte210",
+    "name": "kendryte210-mjxkill",
     "title": "Kendryte K210",
     "version": "1.2.3",
     "description": "Kendryte K210 is an AI capable RISCV64 dual core SoC.",
@@ -41,7 +41,7 @@
             "title": "Kendryte FreeRTOS SDK"
         },
         "arduino":{
-            "package": "framework-maixduino",
+            "package": "framework-maixduino-mjxkill",
             "script": "builder/frameworks/arduino.py"
         }
     },
@@ -51,11 +51,11 @@
             "owner": "platformio",
             "version": "~8.2.0"
         },
-        "framework-maixduino": {
+        "framework-maixduino-mjxkill": {
             "type": "framework",
             "optional": true,
             "owner": "platformio",
-            "version": "~0.3.9"
+            "version": "https://github.com/Mjxkill/framework-maixduino-mjxkill.git"
         },
         "framework-kendryte-standalone-sdk": {
             "type": "framework",
